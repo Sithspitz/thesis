@@ -1,0 +1,1490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Procedure2 s_v="1" ref="ref0" subtype="Procedure">
+ <V>9</V>
+ <V>1</V>
+ <Steps ref="ref1">
+  <Steps-i ref="ref2" subtype="PreprocessingStep">
+   <V>1</V>
+   <Settings ref="ref3" subtype="PreprocessingSettings">
+    <V>18</V>
+    <V>2</V>
+    <Locked>false</Locked>
+    <EnabledControls ref="ref4"></EnabledControls>
+    <CameraBinning>1</CameraBinning>
+    <MultiBandColorTable />
+    <InstrumentConfiguration ref="ref5">
+     <V>4</V>
+     <ReferenceCalibrationTable />
+     <LampType>Unknown</LampType>
+     <LctfType>Unknown</LctfType>
+     <InstrumentType>Unknown</InstrumentType>
+     <MicronsPerPixel>0.9891321</MicronsPerPixel>
+     <Objective ref="ref6">
+      <V>2</V>
+      <ActualMag>10</ActualMag>
+      <Name>10x</Name>
+      <ID>f2cd80c4-c59d-4886-adad-d32fbb4d6e07</ID>
+      <NominalMag>10</NominalMag>
+     </Objective>
+    </InstrumentConfiguration>
+    <AFSpectrum />
+    <SpectralLibSelectionType>ls_Unknown</SpectralLibSelectionType>
+    <ExpectedSegments ref="ref7">
+     <ExpectedSegments-i ref="ref8" subtype="SpectralSegmentBasis">
+      <V>1</V>
+      <V>1</V>
+      <BandIndex>0</BandIndex>
+      <FilterPair />
+      <WavelengthGroup ref="ref9">
+       <V>1</V>
+       <TunableFilterBandwidth>Narrow</TunableFilterBandwidth>
+       <TunableFilterStates ref="ref10" dim="3">
+        <TunableFilterStates-i ref="ref11">
+         <V>1</V>
+         <Wavelength>470</Wavelength>
+         <Retardances />
+        </TunableFilterStates-i>
+        <TunableFilterStates-i ref="ref12">
+         <V>1</V>
+         <Wavelength>550</Wavelength>
+         <Retardances />
+        </TunableFilterStates-i>
+        <TunableFilterStates-i ref="ref13">
+         <V>1</V>
+         <Wavelength>620</Wavelength>
+         <Retardances />
+        </TunableFilterStates-i>
+       </TunableFilterStates>
+      </WavelengthGroup>
+      <Exposure ref="ref14" dim="3">
+       <Exposure-i>AAAAAAAAAAAAAAAA</Exposure-i>
+      </Exposure>
+     </ExpectedSegments-i>
+    </ExpectedSegments>
+    <CubeFromTiff>cft_NotFromTiff</CubeFromTiff>
+    <UnmixedPixelUnit>pu_Raw</UnmixedPixelUnit>
+    <CubeSourceType>cs_QPExport</CubeSourceType>
+    <ExpectedElementType>Byte</ExpectedElementType>
+    <ExpectedPixelUnit>pu_Raw</ExpectedPixelUnit>
+    <ImagingMode>im_Brightfield</ImagingMode>
+    <ImageFormat>cft_RGB</ImageFormat>
+    <DefaultUnmix>true</DefaultUnmix>
+    <ImageLoadSettings ref="ref15">
+     <V>4</V>
+     <ResampleValue ref="ref16">
+      <V>1</V>
+      <Factor>1</Factor>
+      <Type>Down</Type>
+     </ResampleValue>
+     <ResamplingEnabled>false</ResamplingEnabled>
+     <BaselineSpectrum />
+     <BaselineSubtract>false</BaselineSubtract>
+     <ConvertToOD>false</ConvertToOD>
+     <WhiteSpectrum />
+    </ImageLoadSettings>
+    <SpectralLibrary ref="ref17" subtype="SpectralLibrary">
+     <V>2</V>
+     <V>1</V>
+     <Stains ref="ref18" dim="3">
+      <Stains-i ref="ref19" subtype="SpectralLibraryElement">
+       <V>3</V>
+       <Marker />
+       <Adaptive>false</Adaptive>
+       <Selected>true</Selected>
+       <FromDefaultLib>true</FromDefaultLib>
+       <Stain ref="ref20" subtype="Stain">
+        <V>1</V>
+        <V>2</V>
+        <StainType>Measured</StainType>
+        <Name>Blue</Name>
+        <Date>2019-02-21T12:29:44.7389752+00:00</Date>
+        <Notes></Notes>
+        <Mode>im_Unknown</Mode>
+        <ScaleInfoTable ref="ref21">
+         <V>1</V>
+         <ScaleTable ref="ref22">
+          <ScaleTable-k>pu_Raw</ScaleTable-k>
+          <ScaleTable-v ref="ref23" subtype="SerializableLinearScaleInfo" params="System.Double">
+           <V>1</V>
+           <Offset>0</Offset>
+           <ScaleFactors ref="ref24" dim="3">
+            <ScaleFactors-i>AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/</ScaleFactors-i>
+           </ScaleFactors>
+          </ScaleTable-v>
+         </ScaleTable>
+        </ScaleInfoTable>
+        <PixelUnits>pu_Raw</PixelUnits>
+        <StainCategory />
+        <Color>Blue</Color>
+        <SpectralSegments ref="ref25" dim="1">
+         <SpectralSegments-i ref="ref26" subtype="SpectralSegment">
+          <V>1</V>
+          <V>1</V>
+          <V>1</V>
+          <BandIndex>0</BandIndex>
+          <FilterPair />
+          <WavelengthGroup ref="ref27">
+           <V>1</V>
+           <TunableFilterBandwidth>Unknown</TunableFilterBandwidth>
+           <TunableFilterStates ref="ref28" dim="3">
+            <TunableFilterStates-i ref="ref29">
+             <V>1</V>
+             <Wavelength>470</Wavelength>
+             <Retardances />
+            </TunableFilterStates-i>
+            <TunableFilterStates-i ref="ref30">
+             <V>1</V>
+             <Wavelength>550</Wavelength>
+             <Retardances />
+            </TunableFilterStates-i>
+            <TunableFilterStates-i ref="ref31">
+             <V>1</V>
+             <Wavelength>620</Wavelength>
+             <Retardances />
+            </TunableFilterStates-i>
+           </TunableFilterStates>
+          </WavelengthGroup>
+          <Exposure ref="ref32" dim="3">
+           <Exposure-i>AAAAAAAAAAAAAAAA</Exposure-i>
+          </Exposure>
+          <Signal ref="ref33" dim="3">
+           <Signal-i>AACAPwAAAAAAAAAA</Signal-i>
+          </Signal>
+         </SpectralSegments-i>
+        </SpectralSegments>
+       </Stain>
+       <ScalingInfo ref="ref21" />
+      </Stains-i>
+      <Stains-i ref="ref34" subtype="SpectralLibraryElement">
+       <V>3</V>
+       <Marker />
+       <Adaptive>false</Adaptive>
+       <Selected>true</Selected>
+       <FromDefaultLib>true</FromDefaultLib>
+       <Stain ref="ref35" subtype="Stain">
+        <V>1</V>
+        <V>2</V>
+        <StainType>Measured</StainType>
+        <Name>Green</Name>
+        <Date>2019-02-21T12:29:44.7546128+00:00</Date>
+        <Notes></Notes>
+        <Mode>im_Unknown</Mode>
+        <ScaleInfoTable ref="ref36">
+         <V>1</V>
+         <ScaleTable ref="ref37">
+          <ScaleTable-k>pu_Raw</ScaleTable-k>
+          <ScaleTable-v ref="ref38" subtype="SerializableLinearScaleInfo" params="System.Double">
+           <V>1</V>
+           <Offset>0</Offset>
+           <ScaleFactors ref="ref39" dim="3">
+            <ScaleFactors-i>AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/</ScaleFactors-i>
+           </ScaleFactors>
+          </ScaleTable-v>
+         </ScaleTable>
+        </ScaleInfoTable>
+        <PixelUnits>pu_Raw</PixelUnits>
+        <StainCategory />
+        <Color>Lime</Color>
+        <SpectralSegments ref="ref40" dim="1">
+         <SpectralSegments-i ref="ref41" subtype="SpectralSegment">
+          <V>1</V>
+          <V>1</V>
+          <V>1</V>
+          <BandIndex>0</BandIndex>
+          <FilterPair />
+          <WavelengthGroup ref="ref42">
+           <V>1</V>
+           <TunableFilterBandwidth>Unknown</TunableFilterBandwidth>
+           <TunableFilterStates ref="ref43" dim="3">
+            <TunableFilterStates-i ref="ref44">
+             <V>1</V>
+             <Wavelength>470</Wavelength>
+             <Retardances />
+            </TunableFilterStates-i>
+            <TunableFilterStates-i ref="ref45">
+             <V>1</V>
+             <Wavelength>550</Wavelength>
+             <Retardances />
+            </TunableFilterStates-i>
+            <TunableFilterStates-i ref="ref46">
+             <V>1</V>
+             <Wavelength>620</Wavelength>
+             <Retardances />
+            </TunableFilterStates-i>
+           </TunableFilterStates>
+          </WavelengthGroup>
+          <Exposure ref="ref47" dim="3">
+           <Exposure-i>AAAAAAAAAAAAAAAA</Exposure-i>
+          </Exposure>
+          <Signal ref="ref48" dim="3">
+           <Signal-i>AAAAAAAAgD8AAAAA</Signal-i>
+          </Signal>
+         </SpectralSegments-i>
+        </SpectralSegments>
+       </Stain>
+       <ScalingInfo ref="ref36" />
+      </Stains-i>
+      <Stains-i ref="ref49" subtype="SpectralLibraryElement">
+       <V>3</V>
+       <Marker />
+       <Adaptive>false</Adaptive>
+       <Selected>true</Selected>
+       <FromDefaultLib>true</FromDefaultLib>
+       <Stain ref="ref50" subtype="Stain">
+        <V>1</V>
+        <V>2</V>
+        <StainType>Measured</StainType>
+        <Name>Red</Name>
+        <Date>2019-02-21T12:29:44.7546128+00:00</Date>
+        <Notes></Notes>
+        <Mode>im_Unknown</Mode>
+        <ScaleInfoTable ref="ref51">
+         <V>1</V>
+         <ScaleTable ref="ref52">
+          <ScaleTable-k>pu_Raw</ScaleTable-k>
+          <ScaleTable-v ref="ref53" subtype="SerializableLinearScaleInfo" params="System.Double">
+           <V>1</V>
+           <Offset>0</Offset>
+           <ScaleFactors ref="ref54" dim="3">
+            <ScaleFactors-i>AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/</ScaleFactors-i>
+           </ScaleFactors>
+          </ScaleTable-v>
+         </ScaleTable>
+        </ScaleInfoTable>
+        <PixelUnits>pu_Raw</PixelUnits>
+        <StainCategory />
+        <Color>Red</Color>
+        <SpectralSegments ref="ref55" dim="1">
+         <SpectralSegments-i ref="ref56" subtype="SpectralSegment">
+          <V>1</V>
+          <V>1</V>
+          <V>1</V>
+          <BandIndex>0</BandIndex>
+          <FilterPair />
+          <WavelengthGroup ref="ref57">
+           <V>1</V>
+           <TunableFilterBandwidth>Unknown</TunableFilterBandwidth>
+           <TunableFilterStates ref="ref58" dim="3">
+            <TunableFilterStates-i ref="ref59">
+             <V>1</V>
+             <Wavelength>470</Wavelength>
+             <Retardances />
+            </TunableFilterStates-i>
+            <TunableFilterStates-i ref="ref60">
+             <V>1</V>
+             <Wavelength>550</Wavelength>
+             <Retardances />
+            </TunableFilterStates-i>
+            <TunableFilterStates-i ref="ref61">
+             <V>1</V>
+             <Wavelength>620</Wavelength>
+             <Retardances />
+            </TunableFilterStates-i>
+           </TunableFilterStates>
+          </WavelengthGroup>
+          <Exposure ref="ref62" dim="3">
+           <Exposure-i>AAAAAAAAAAAAAAAA</Exposure-i>
+          </Exposure>
+          <Signal ref="ref63" dim="3">
+           <Signal-i>AAAAAAAAAAAAAIA/</Signal-i>
+          </Signal>
+         </SpectralSegments-i>
+        </SpectralSegments>
+       </Stain>
+       <ScalingInfo ref="ref51" />
+      </Stains-i>
+     </Stains>
+    </SpectralLibrary>
+    <SpectralLibraryFileName></SpectralLibraryFileName>
+   </Settings>
+  </Steps-i>
+  <Steps-i ref="ref64" subtype="ClassifyStep">
+   <V>1</V>
+   <Settings ref="ref65" subtype="ClassifySettings">
+    <V>3</V>
+    <V>2</V>
+    <Locked>false</Locked>
+    <EnabledControls ref="ref66"></EnabledControls>
+    <DiscardAtEdges>false</DiscardAtEdges>
+    <ClassifyResolutionSelection>1</ClassifyResolutionSelection>
+    <ClassToProcessId>00000000-0000-0000-0000-000000000000</ClassToProcessId>
+    <DoErode>false</DoErode>
+    <DoMCP>false</DoMCP>
+    <DownSampleFactor>1</DownSampleFactor>
+    <ErodeValue>5</ErodeValue>
+    <McpValue>500</McpValue>
+    <SelectedComponents ref="ref67" dim="3">
+     <SelectedComponents-i>AQEB</SelectedComponents-i>
+    </SelectedComponents>
+    <Solution ref="ref68">
+     <V>2</V>
+     <SignalScaling>Fixed</SignalScaling>
+     <ScaleLimits ref="ref69" dim="3">
+      <ScaleLimits-i ref="ref70">
+       <V>1</V>
+       <Min>8</Min>
+       <Max>81</Max>
+      </ScaleLimits-i>
+      <ScaleLimits-i ref="ref71">
+       <V>1</V>
+       <Min>9.333333</Min>
+       <Max>81.3333359</Max>
+      </ScaleLimits-i>
+      <ScaleLimits-i ref="ref72">
+       <V>1</V>
+       <Min>8.666667</Min>
+       <Max>84.6666641</Max>
+      </ScaleLimits-i>
+     </ScaleLimits>
+     <Classes ref="ref73">
+      <V>1</V>
+      <InfoList ref="ref74">
+       <InfoList-i ref="ref75">
+        <V>1</V>
+        <Color>Red</Color>
+        <Id>352ab651-6bca-4571-a3a6-2ddf25dcd29b</Id>
+        <Name>Not Tissue</Name>
+       </InfoList-i>
+       <InfoList-i ref="ref76">
+        <V>1</V>
+        <Color>Lime</Color>
+        <Id>d6230b8a-c31e-45f1-9afa-df6492eee5bb</Id>
+        <Name>Tissue</Name>
+       </InfoList-i>
+      </InfoList>
+     </Classes>
+     <Classifier ref="ref77" subtype="NNC">
+      <V>2</V>
+      <P>1</P>
+      <F ref="ref78" dim="30">
+       <F-i>AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAABAAAAARAAAAEgAAABMAAAAUAAAAFQAAABYAAAAXAAAAGAAAABkAAAAaAAAAGwAAABwAAAAdAAAA</F-i>
+      </F>
+      <N ref="ref79">
+       <V>1</V>
+       <B ref="ref80" dim="2">
+        <B-i ref="ref81">
+         <V>2</V>
+         <B>0.419217229</B>
+         <C>0.0171862859</C>
+         <A>1</A>
+         <D>3.35407008499677E-10</D>
+         <E>0</E>
+         <T>0</T>
+         <W ref="ref82" dim="5">
+          <W-i>yIfqwTTmG0DVkmQSbSoRQKQBuwoJgu8/Zz0Niqa9FUD0hskhCU8VQA==</W-i>
+         </W>
+        </B-i>
+        <B-i ref="ref83">
+         <V>2</V>
+         <B>0.0402864367</B>
+         <C>0.012597519</C>
+         <A>1</A>
+         <D>-2.91049422217261E-08</D>
+         <E>0</E>
+         <T>0</T>
+         <W ref="ref84" dim="2">
+          <W-i>ijilgWVI8L9nMuIe12nwPw==</W-i>
+         </W>
+        </B-i>
+       </B>
+       <L ref="ref85" dim="2">
+        <L-i>AAAAoJmZyT8AAACgmZnJPw==</L-i>
+       </L>
+       <MF>0.5</MF>
+       <N ref="ref86" dim="3">
+        <N-i ref="ref87" dim="30">
+         <N-i-i ref="ref88">
+          <V>2</V>
+          <B>0.351584554</B>
+          <C>0.0510662347</C>
+          <A>0</A>
+          <D>1.34057030641296E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref89" dim="5">
+           <W-i>48VP8tInFUD3pYaAcJsLQBbwIXpWI+c/84Q809gN8j/uO+8SJwYUQA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref90">
+          <V>2</V>
+          <B>0.6755385</B>
+          <C>0.0056542377</C>
+          <A>0</A>
+          <D>4.64895178844863E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref91" dim="5">
+           <W-i>m6aa46Fq0b+FpTQB+rbXPw2mB/613rg/4VLEzpEz8D/8rpisrn7kPw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref92">
+          <V>2</V>
+          <B>0.06422309</B>
+          <C>0.0226577576</C>
+          <A>0</A>
+          <D>4.29319719538746E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref93" dim="5">
+           <W-i>EYk+eyTVHEAcIyDh31gUQLuHRRrRVf0/l0Ma70OKGEC7I7tMxssMQA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref94">
+          <V>2</V>
+          <B>0.4308449</B>
+          <C>0.041698806</C>
+          <A>0</A>
+          <D>1.07240549219851E-12</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref95" dim="5">
+           <W-i>hC+tjo0J67/M3vgTugikvwfRVm702Mq/5PmrItTz6D87dhbqoqLnvw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref96">
+          <V>2</V>
+          <B>0.602365553</B>
+          <C>0.00579318032</C>
+          <A>0</A>
+          <D>2.57820696760348E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref97" dim="5">
+           <W-i>YbDYbO6n8D+YUvyHm6Dmv9iPHU3tud6/sfrtpG8Tyz/Vp4Vzlifhvw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref98">
+          <V>2</V>
+          <B>0.659095943</B>
+          <C>0.0100882724</C>
+          <A>0</A>
+          <D>2.97357965588885E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref99" dim="5">
+           <W-i>HRFHZgePD0DNWL20/qADQPvJLVcTUfM/Kf+akv9Z/T/gRXFrtu76Pw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref100">
+          <V>2</V>
+          <B>0.4989377</B>
+          <C>0.0410547853</C>
+          <A>0</A>
+          <D>2.22723910991319E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref101" dim="5">
+           <W-i>eiMc9C2zCEAOkTi7Yln7PxxJjpZ2EtS/M8C6ajJc8j/IinENREjvPw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref102">
+          <V>2</V>
+          <B>0.0534369536</B>
+          <C>0.0310721453</C>
+          <A>0</A>
+          <D>2.55781186724669E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref103" dim="5">
+           <W-i>3zRxjUKQ9z/j0Nnnojn6P9MjMYgSxvA/OfYqB2OI8j9bJdTd4gIAQA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref104">
+          <V>2</V>
+          <B>0.961050451</B>
+          <C>0.0525700934</C>
+          <A>0</A>
+          <D>2.87962806557488E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref105" dim="5">
+           <W-i>FsOhCOCJA0AbZVQA5GP5PzNlHbPOIeg/3oq4F3ux/z/OxlXu/H/7Pw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref106">
+          <V>2</V>
+          <B>0.323779285</B>
+          <C>0.0611618459</C>
+          <A>0</A>
+          <D>1.94807240668753E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref107" dim="5">
+           <W-i>dGOSkxSeAkA4IWLkXej1P3TzvyiOFNi/zjmoR3/0B0Bdb31F0EMGQA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref108">
+          <V>2</V>
+          <B>0.2668859</B>
+          <C>0.0815258</C>
+          <A>0</A>
+          <D>2.47807304367102E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref109" dim="5">
+           <W-i>80KfPClyE8CfsOH0BZUTwDgVzeh9C/S/y9mRZn4RKcB5fdkNG3nNvw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref110">
+          <V>2</V>
+          <B>0.06868813</B>
+          <C>0.06227047</C>
+          <A>0</A>
+          <D>4.58404664127802E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref111" dim="5">
+           <W-i>VEDHPlLM+b+LNFopXmLuvykHmEZ55+G/HCTSTBgpAsCYP38SnSD4vw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref112">
+          <V>2</V>
+          <B>0.381832749</B>
+          <C>0.00774546759</C>
+          <A>0</A>
+          <D>4.41821106069502E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref113" dim="5">
+           <W-i>CxMB+92OGEAqPdLVgOoSQK88LpcwHOc/hMTDHuK9CUCYRH9W2HIUQA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref114">
+          <V>2</V>
+          <B>0.0490928143</B>
+          <C>0.05015739</C>
+          <A>0</A>
+          <D>1.60963111508915E-12</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref115" dim="5">
+           <W-i>bjH5z0tg6b9E2q52kZXPPwz/7ENkzbY/3gJ/avK7xb8ymkCqdArXPw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref116">
+          <V>2</V>
+          <B>0.449773073</B>
+          <C>0.09767367</C>
+          <A>0</A>
+          <D>2.54061273709146E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref117" dim="5">
+           <W-i>mpWxRx6h/L/zZ6BeoPPkvw/6NDFqQeY/k3i7QB0l2D8ncpAQ+vX4vw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref118">
+          <V>2</V>
+          <B>0.922802269</B>
+          <C>0.0741439238</C>
+          <A>0</A>
+          <D>3.29425947770762E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref119" dim="5">
+           <W-i>oSHRY/7iDUA0u7Y0fJsDQGeDF/LFIfM/7yGN5p6VBkBJB4hT1VsDQA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref120">
+          <V>2</V>
+          <B>0.6092413</B>
+          <C>0.09911057</C>
+          <A>0</A>
+          <D>2.43466884955966E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref121" dim="5">
+           <W-i>wsTwRCpSC0CgKb8l8I0BQHDL0VPBBty/m7D1h/O0AUAh5UjWx970Pw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref122">
+          <V>2</V>
+          <B>0.383957684</B>
+          <C>0.0140993223</C>
+          <A>0</A>
+          <D>2.40564618683201E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref123" dim="5">
+           <W-i>KJ4OTplhA0BtcWhzMO4AQEdwiMkLCN6/dTGSBXbY/z+C1Y/qpkv+Pw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref124">
+          <V>2</V>
+          <B>0.110429727</B>
+          <C>0.0009797309</C>
+          <A>0</A>
+          <D>2.88069194940054E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref125" dim="5">
+           <W-i>Xv/UNB2tA0AswFqLUCLvP/hV4lI+9uE/8bPYdfQ+BEAjpSdEvFLuPw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref126">
+          <V>2</V>
+          <B>0.5987625</B>
+          <C>0.0988303</C>
+          <A>0</A>
+          <D>2.62651865600012E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref127" dim="5">
+           <W-i>Xn86LCpXE0BS0p0l+Jz/P4+piIqYNOg/lU2h+5B0DEDAUmUiOaoLQA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref128">
+          <V>2</V>
+          <B>0.09055723</B>
+          <C>0.0976805761</C>
+          <A>0</A>
+          <D>1.33568726853914E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref129" dim="5">
+           <W-i>odoJch0WOcAZ3Hc/sgwxwE4oaKkR7xLAcRbeUQ4ZM8DQ2X4hy8QywA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref130">
+          <V>2</V>
+          <B>0.109981373</B>
+          <C>0.09201674</C>
+          <A>0</A>
+          <D>4.38927485235743E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref131" dim="5">
+           <W-i>lZQEtcZcHsAy3mipaRAVwEO6dnmJFu+/K59xEX9bE8BNwiR7QgMdwA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref132">
+          <V>2</V>
+          <B>0.7844135</B>
+          <C>0.0596356057</C>
+          <A>0</A>
+          <D>4.05582967813754E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref133" dim="5">
+           <W-i>sqAnxMa53j+pH73xaXv9Px5SeLILtty/sM3NvysYBUCYquwbD9HgPw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref134">
+          <V>2</V>
+          <B>0.791449964</B>
+          <C>0.03175602</C>
+          <A>0</A>
+          <D>1.9099401396085E-12</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref135" dim="5">
+           <W-i>ZQlk65Pb1z/erQYfNmLZP7Yr96RwQuM/35vJH4sA8T9G7SFA68jnvw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref136">
+          <V>2</V>
+          <B>0.602436543</B>
+          <C>0.0327030532</C>
+          <A>0</A>
+          <D>2.4829704876378E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref137" dim="5">
+           <W-i>neD/8/AB+b/CbdzhvoHXv9MLAnaAAeI/dVh//gT9tL/TUQa9NO3evw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref138">
+          <V>2</V>
+          <B>0.09525109</B>
+          <C>0.08935163</C>
+          <A>0</A>
+          <D>3.4229937219522E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref139" dim="5">
+           <W-i>chTVJ97/CEBrpfa9Gsf7Pzq03FBxK66/R0dFo5a/CkB/SRcBEJIIQA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref140">
+          <V>2</V>
+          <B>0.848083556</B>
+          <C>0.0428667963</C>
+          <A>0</A>
+          <D>2.61556170818446E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref141" dim="5">
+           <W-i>Mqfg+3kLAUATS/eCCnEEQGBfc9RcI+C/knZMwAMYAkAd5ZoNi+4EQA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref142">
+          <V>2</V>
+          <B>0.859089255</B>
+          <C>0.05363265</C>
+          <A>0</A>
+          <D>2.67244062451738E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref143" dim="5">
+           <W-i>XBFxylSW7j+kgrbw08ecP3BGLSN3e/A/s/yeam9h3z9MqZ7DA231Pw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref144">
+          <V>2</V>
+          <B>0.441974223</B>
+          <C>0.00528337667</C>
+          <A>0</A>
+          <D>2.85429537825714E-10</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref145" dim="5">
+           <W-i>YtSHi3KaAkDXIX+fdKPxP4y/RJC4QeA/mTTXh34OBED/ElRof5r5Pw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref146">
+          <V>2</V>
+          <B>0.6747096</B>
+          <C>0.09867684</C>
+          <A>0</A>
+          <D>2.76534138930388E-11</D>
+          <E>0</E>
+          <T>0</T>
+          <W ref="ref147" dim="5">
+           <W-i>iWUkOOquEkC/6ealCHj8Pwvh/aUwie8/4naa34AgBUAUQA1dmXgNQA==</W-i>
+          </W>
+         </N-i-i>
+        </N-i>
+        <N-i ref="ref148" dim="5">
+         <N-i-i ref="ref149">
+          <V>2</V>
+          <B>0.177484751</B>
+          <C>0.0929271</C>
+          <A>0.999999870458375</A>
+          <D>3.33007633012527E-08</D>
+          <E>-1.60290734351478E-15</E>
+          <T>0</T>
+          <W ref="ref150" dim="2">
+           <W-i>gas1d1zbAMBHoMp+dc4AQA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref151">
+          <V>2</V>
+          <B>0.967215</B>
+          <C>0.06256288</C>
+          <A>0.999992771138872</A>
+          <D>3.32943721687759E-08</D>
+          <E>-1.41692684234142E-13</E>
+          <T>0</T>
+          <W ref="ref152" dim="2">
+           <W-i>h7RP+bDh+L/caHQze3L4Pw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref153">
+          <V>2</V>
+          <B>0.135129541</B>
+          <C>0.09176567</C>
+          <A>0.944232644282692</A>
+          <D>2.87383806142547E-08</D>
+          <E>-4.46744858900031E-09</E>
+          <T>0</T>
+          <W ref="ref154" dim="2">
+           <W-i>InC4D2bZ3T8SbdgEyHjbvw==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref155">
+          <V>2</V>
+          <B>0.4916414</B>
+          <C>0.0507831946</C>
+          <A>0.999999952038857</A>
+          <D>3.33010096663478E-08</D>
+          <E>-1.89135841802527E-15</E>
+          <T>0</T>
+          <W ref="ref156" dim="2">
+           <W-i>GfWU3o48CcCKTOdvnDwJQA==</W-i>
+          </W>
+         </N-i-i>
+         <N-i-i ref="ref157">
+          <V>2</V>
+          <B>0.0265901648</B>
+          <C>0.09124437</C>
+          <A>0.999744776113271</A>
+          <D>3.31955218696551E-08</D>
+          <E>-4.19392292613435E-12</E>
+          <T>0</T>
+          <W ref="ref158" dim="2">
+           <W-i>1Np0ovQvAcDtzb/+STgBQA==</W-i>
+          </W>
+         </N-i-i>
+        </N-i>
+        <N-i ref="ref159" dim="2">
+         <N-i-i ref="ref160">
+          <V>2</V>
+          <B>0.200291738</B>
+          <C>0.09512531</C>
+          <A>-0.99985645338042</A>
+          <D>0</D>
+          <E>2.09522842019517E-08</E>
+          <T>0</T>
+          <W />
+         </N-i-i>
+         <N-i-i ref="ref161">
+          <V>2</V>
+          <B>0.9269384</B>
+          <C>0.03354763</C>
+          <A>0.99985843243398</A>
+          <D>0</D>
+          <E>-2.03499721765017E-08</E>
+          <T>0</T>
+          <W />
+         </N-i-i>
+        </N-i>
+       </N>
+      </N>
+     </Classifier>
+     <KernelSize>32</KernelSize>
+    </Solution>
+    <TrainingResolutionSelection>2</TrainingResolutionSelection>
+   </Settings>
+  </Steps-i>
+  <Steps-i ref="ref162" subtype="ExportStep">
+   <V>1</V>
+   <Settings ref="ref163" subtype="ExportSettings">
+    <V>11</V>
+    <V>2</V>
+    <Locked>false</Locked>
+    <EnabledControls ref="ref164"></EnabledControls>
+    <ColocTable>false</ColocTable>
+    <QuantTable>false</QuantTable>
+    <ObjectCountingTable>false</ObjectCountingTable>
+    <DirectoryPerImage>false</DirectoryPerImage>
+    <FieldSelection>efs_AllFields</FieldSelection>
+    <FileConflictType>efct_Overwrite</FileConflictType>
+    <SourcePathLevels>0</SourcePathLevels>
+    <ClassTable>false</ClassTable>
+    <SegmentationTable>false</SegmentationTable>
+    <ScoreTable>false</ScoreTable>
+    <DirectoryName />
+    <ExportTypes>eet_Segmentation</ExportTypes>
+    <ImageType>eit_TIFF</ImageType>
+   </Settings>
+  </Steps-i>
+ </Steps>
+ <VectraUse>None</VectraUse>
+ <L>false</L>
+ <ViewSettingsList ref="ref165">
+  <V>1</V>
+  <Settings ref="ref166">
+   <Settings-i ref="ref167">
+    <V>2</V>
+    <SharedViewSettings ref="ref168">
+     <V>9</V>
+     <UnmixPixelUnit>pu_Raw</UnmixPixelUnit>
+     <ImageScaling>AcrossAll</ImageScaling>
+     <SelectedScalingLimits />
+     <ThresholdParameters ref="ref169"></ThresholdParameters>
+     <ColocNumeratorParameters ref="ref170" subtype="ThresholdMaskParameters">
+      <V>2</V>
+      <MaxSignalLevel>0</MaxSignalLevel>
+      <ComponentName>Colocalization Numerator</ComponentName>
+      <MaskColor>Yellow</MaskColor>
+      <Visible>false</Visible>
+      <Threshold>0</Threshold>
+      <MCP>0</MCP>
+     </ColocNumeratorParameters>
+     <ScoreViewSettings />
+     <ShowScoreThresholds>false</ShowScoreThresholds>
+     <OverlayRenderers ref="ref171">
+      <OverlayRenderers-i ref="ref172" subtype="ClassMapRenderer">
+       <V>1</V>
+       <Visible>true</Visible>
+       <Alpha>75</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref173" subtype="TrainingRegionRenderer">
+       <V>1</V>
+       <Visible>true</Visible>
+       <Alpha>90</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref174" subtype="NuclearRenderer">
+       <V>1</V>
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>true</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>128</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref175" subtype="CytoplasmRenderer">
+       <V>1</V>
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>true</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>192</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref176" subtype="MembraneRenderer">
+       <V>1</V>
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>true</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>192</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref177" subtype="ComponentRegionRenderer">
+       <V>1</V>
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>true</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>75</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref178" subtype="ColorRenderer">
+       <V>1</V>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref179" subtype="PhenotypeRenderer">
+       <V>3</V>
+       <V>1</V>
+       <VisiblePhenotypes />
+       <Visible>true</Visible>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref180" subtype="SpectralRegionRenderer">
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>true</DrawInterior>
+       <Visible>false</Visible>
+       <Alpha>255</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref181" subtype="ExtractedSignalRenderer"></OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref182" subtype="PhenotypeTrainingRenderer">
+       <V>2</V>
+       <V>1</V>
+       <VisiblePhenotypes />
+       <Visible>false</Visible>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref183" subtype="PreviewRegionRenderer">
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>false</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>192</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref184" subtype="ProcessRegionRenderer">
+       <V>4</V>
+       <ShowIdNumbers>true</ShowIdNumbers>
+       <DrawInterior>false</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>192</Alpha>
+      </OverlayRenderers-i>
+     </OverlayRenderers>
+    </SharedViewSettings>
+    <ViewType>EView_Image</ViewType>
+    <ImageViewSettings ref="ref185" subtype="ImageViewSettings">
+     <V>4</V>
+     <SharedViewSettings ref="ref168" />
+     <ImageViewTypeSettings ref="ref186">
+      <ImageViewTypeSettings-k>EImageView_Cube</ImageViewTypeSettings-k>
+      <ImageViewTypeSettings-v ref="ref187" subtype="CubeImageViewSettings">
+       <V>3</V>
+       <V>2</V>
+       <V>4</V>
+       <SharedViewSettings ref="ref168" />
+       <PictureSettings ref="ref188" subtype="CubeRenderer">
+        <V>3</V>
+        <V>1</V>
+        <V>4</V>
+        <ScaleWindowFactor ref="ref189" dim="3">
+         <ScaleWindowFactor-i>AACAPwAAgD8AAIA/</ScaleWindowFactor-i>
+        </ScaleWindowFactor>
+        <Visible>true</Visible>
+        <Brightness ref="ref190" dim="3">
+         <Brightness-i>AAAAAAAAAAAAAAAA</Brightness-i>
+        </Brightness>
+        <Contrast ref="ref191" dim="3">
+         <Contrast-i>AAAAAAAAAAAAAAAA</Contrast-i>
+        </Contrast>
+        <Gamma ref="ref192" dim="3">
+         <Gamma-i>AACAPwAAgD8AAIA/</Gamma-i>
+        </Gamma>
+        <CacheType>cst_Scaled</CacheType>
+        <ScaleAcrossLayers>true</ScaleAcrossLayers>
+        <ScalingLimits ref="ref193" dim="3">
+         <ScalingLimits-i ref="ref194">
+          <V>1</V>
+          <Min>0</Min>
+          <Max>255</Max>
+         </ScalingLimits-i>
+         <ScalingLimits-i ref="ref195">
+          <V>1</V>
+          <Min>0</Min>
+          <Max>255</Max>
+         </ScalingLimits-i>
+         <ScalingLimits-i ref="ref196">
+          <V>1</V>
+          <Min>0</Min>
+          <Max>255</Max>
+         </ScalingLimits-i>
+        </ScalingLimits>
+        <ScalingType>est_Raw</ScalingType>
+        <CustomScaling />
+        <LayerIndices ref="ref197" dim="3">
+         <LayerIndices-i>AAAAAAEAAAACAAAA</LayerIndices-i>
+        </LayerIndices>
+        <RenderingUnitSpace>pu_DarkMeanSubtract</RenderingUnitSpace>
+        <ColorWeighting ref="ref198" dim="3,3">
+         <ColorWeighting-i>AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/</ColorWeighting-i>
+        </ColorWeighting>
+        <ColorWeightingRules ref="ref199" subtype="EqualRgbRules">
+         <V>2</V>
+         <V>1</V>
+         <InstrumentalResponse />
+        </ColorWeightingRules>
+       </PictureSettings>
+       <ColorWeighting ref="ref199" />
+      </ImageViewTypeSettings-v>
+      <ImageViewTypeSettings-k>EImageView_Component</ImageViewTypeSettings-k>
+      <ImageViewTypeSettings-v ref="ref200" subtype="ComponentImageViewSettings">
+       <V>3</V>
+       <V>3</V>
+       <V>4</V>
+       <SharedViewSettings ref="ref168" />
+       <PictureSettings ref="ref201" subtype="ComponentRenderer">
+        <V>1</V>
+        <V>2</V>
+        <V>4</V>
+        <ScaleWindowFactor />
+        <Visible>true</Visible>
+        <Brightness ref="ref202" dim="1">
+         <Brightness-i>AAAAAA==</Brightness-i>
+        </Brightness>
+        <Contrast ref="ref203" dim="1">
+         <Contrast-i>AAAAAA==</Contrast-i>
+        </Contrast>
+        <Gamma ref="ref204" dim="1">
+         <Gamma-i>AACAPw==</Gamma-i>
+        </Gamma>
+        <CacheType>cst_None</CacheType>
+        <ScaleAcrossLayers>true</ScaleAcrossLayers>
+        <ScalingLimits />
+        <ScalingType>est_ClipStretch</ScalingType>
+        <CustomScaling />
+        <UseAlternateColor>true</UseAlternateColor>
+        <DisplayMode>edm_Absorptive</DisplayMode>
+        <ComponentInfo />
+       </PictureSettings>
+      </ImageViewTypeSettings-v>
+      <ImageViewTypeSettings-k>EImageView_Composite</ImageViewTypeSettings-k>
+      <ImageViewTypeSettings-v ref="ref205" subtype="CompositeImageViewSettings">
+       <V>3</V>
+       <V>4</V>
+       <SharedViewSettings ref="ref168" />
+       <PictureSettings ref="ref206" subtype="CompositeRenderer">
+        <V>2</V>
+        <V>4</V>
+        <ScaleWindowFactor ref="ref207" dim="3">
+         <ScaleWindowFactor-i>AACAPwAAgD8AAIA/</ScaleWindowFactor-i>
+        </ScaleWindowFactor>
+        <Visible>true</Visible>
+        <Brightness ref="ref208" dim="3">
+         <Brightness-i>AAAAAAAAAAAAAAAA</Brightness-i>
+        </Brightness>
+        <Contrast ref="ref209" dim="3">
+         <Contrast-i>AAAAAAAAAAAAAAAA</Contrast-i>
+        </Contrast>
+        <Gamma ref="ref210" dim="3">
+         <Gamma-i>AACAPwAAgD8AAIA/</Gamma-i>
+        </Gamma>
+        <CacheType>cst_None</CacheType>
+        <ScaleAcrossLayers>false</ScaleAcrossLayers>
+        <ScalingLimits />
+        <ScalingType>est_ClipStretch</ScalingType>
+        <CustomScaling ref="ref211" dim="3">
+         <CustomScaling-i ref="ref212">
+          <V>1</V>
+          <Min>4.673016</Min>
+          <Max>80.00757</Max>
+         </CustomScaling-i>
+         <CustomScaling-i ref="ref213">
+          <V>1</V>
+          <Min>4.671307</Min>
+          <Max>80.66772</Max>
+         </CustomScaling-i>
+         <CustomScaling-i ref="ref214">
+          <V>1</V>
+          <Min>5.341229</Min>
+          <Max>84.33578</Max>
+         </CustomScaling-i>
+        </CustomScaling>
+        <UseAlternateColor>false</UseAlternateColor>
+        <DisplayMode>edm_Absorptive</DisplayMode>
+        <ComponentInfo ref="ref215">
+         <ComponentInfo-i ref="ref216">
+          <V>2</V>
+          <Epitope />
+          <AlternateColor>Blue</AlternateColor>
+          <Color>Blue</Color>
+          <Index>0</Index>
+          <Name>Blue</Name>
+          <Visible>true</Visible>
+         </ComponentInfo-i>
+         <ComponentInfo-i ref="ref217">
+          <V>2</V>
+          <Epitope />
+          <AlternateColor>Lime</AlternateColor>
+          <Color>Lime</Color>
+          <Index>1</Index>
+          <Name>Green</Name>
+          <Visible>true</Visible>
+         </ComponentInfo-i>
+         <ComponentInfo-i ref="ref218">
+          <V>2</V>
+          <Epitope />
+          <AlternateColor>Red</AlternateColor>
+          <Color>Red</Color>
+          <Index>2</Index>
+          <Name>Red</Name>
+          <Visible>true</Visible>
+         </ComponentInfo-i>
+        </ComponentInfo>
+       </PictureSettings>
+      </ImageViewTypeSettings-v>
+     </ImageViewTypeSettings>
+     <ImageViewType>EImageView_Cube</ImageViewType>
+    </ImageViewSettings>
+    <TableViewSettings ref="ref219" subtype="TableViewSettings">
+     <V>3</V>
+     <SharedViewSettings ref="ref168" />
+     <TableViewTypeSettings ref="ref220">
+      <TableViewTypeSettings-k>stt_class</TableViewTypeSettings-k>
+      <TableViewTypeSettings-v ref="ref221" subtype="ClassTableViewSettings">
+       <V>1</V>
+       <V>2</V>
+       <V>4</V>
+       <ShowSlideInfo>false</ShowSlideInfo>
+       <SharedViewSettings ref="ref168" />
+       <ShowTmaInfo>false</ShowTmaInfo>
+       <AllClasses ref="ref222" dim="2">
+        <AllClasses-i>Not Tissue</AllClasses-i>
+        <AllClasses-i>Tissue</AllClasses-i>
+       </AllClasses>
+       <AllComponents ref="ref223" dim="3">
+        <AllComponents-i>Blue</AllComponents-i>
+        <AllComponents-i>Green</AllComponents-i>
+        <AllComponents-i>Red</AllComponents-i>
+       </AllComponents>
+       <SelectedCompartments ref="ref224" dim="0"></SelectedCompartments>
+       <SelectedClasses ref="ref225" dim="1">
+        <SelectedClasses-i>Not Tissue</SelectedClasses-i>
+       </SelectedClasses>
+       <SelectedComponents ref="ref226" dim="1">
+        <SelectedComponents-i>Blue</SelectedComponents-i>
+       </SelectedComponents>
+       <SelectedPositionStats ref="ref227" dim="0"></SelectedPositionStats>
+       <SelectedShapeStats ref="ref228" dim="0"></SelectedShapeStats>
+       <SelectedComponentStats ref="ref229" dim="1">
+        <SelectedComponentStats-i>Mean</SelectedComponentStats-i>
+       </SelectedComponentStats>
+       <ReportAllClasses>false</ReportAllClasses>
+       <ReportAllComponents>false</ReportAllComponents>
+      </TableViewTypeSettings-v>
+     </TableViewTypeSettings>
+     <TableViewType>-1</TableViewType>
+    </TableViewSettings>
+   </Settings-i>
+   <Settings-i ref="ref230">
+    <V>2</V>
+    <SharedViewSettings ref="ref231">
+     <V>9</V>
+     <UnmixPixelUnit>pu_Raw</UnmixPixelUnit>
+     <ImageScaling>AcrossAll</ImageScaling>
+     <SelectedScalingLimits />
+     <ThresholdParameters ref="ref232"></ThresholdParameters>
+     <ColocNumeratorParameters ref="ref233" subtype="ThresholdMaskParameters">
+      <V>2</V>
+      <MaxSignalLevel>0</MaxSignalLevel>
+      <ComponentName>Colocalization Numerator</ComponentName>
+      <MaskColor>Yellow</MaskColor>
+      <Visible>false</Visible>
+      <Threshold>0</Threshold>
+      <MCP>0</MCP>
+     </ColocNumeratorParameters>
+     <ScoreViewSettings />
+     <ShowScoreThresholds>false</ShowScoreThresholds>
+     <OverlayRenderers ref="ref234">
+      <OverlayRenderers-i ref="ref235" subtype="ClassMapRenderer">
+       <V>1</V>
+       <Visible>true</Visible>
+       <Alpha>75</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref236" subtype="TrainingRegionRenderer">
+       <V>1</V>
+       <Visible>true</Visible>
+       <Alpha>90</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref237" subtype="NuclearRenderer">
+       <V>1</V>
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>true</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>128</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref238" subtype="CytoplasmRenderer">
+       <V>1</V>
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>true</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>192</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref239" subtype="MembraneRenderer">
+       <V>1</V>
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>true</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>192</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref240" subtype="ComponentRegionRenderer">
+       <V>1</V>
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>true</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>75</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref241" subtype="ColorRenderer">
+       <V>1</V>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref242" subtype="PhenotypeRenderer">
+       <V>3</V>
+       <V>1</V>
+       <VisiblePhenotypes />
+       <Visible>true</Visible>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref243" subtype="SpectralRegionRenderer">
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>true</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>255</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref244" subtype="ExtractedSignalRenderer"></OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref245" subtype="PhenotypeTrainingRenderer">
+       <V>2</V>
+       <V>1</V>
+       <VisiblePhenotypes />
+       <Visible>false</Visible>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref246" subtype="PreviewRegionRenderer">
+       <V>4</V>
+       <ShowIdNumbers>false</ShowIdNumbers>
+       <DrawInterior>false</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>192</Alpha>
+      </OverlayRenderers-i>
+      <OverlayRenderers-i ref="ref247" subtype="ProcessRegionRenderer">
+       <V>4</V>
+       <ShowIdNumbers>true</ShowIdNumbers>
+       <DrawInterior>false</DrawInterior>
+       <Visible>true</Visible>
+       <Alpha>192</Alpha>
+      </OverlayRenderers-i>
+     </OverlayRenderers>
+    </SharedViewSettings>
+    <ViewType>EView_Image</ViewType>
+    <ImageViewSettings ref="ref248" subtype="ImageViewSettings">
+     <V>4</V>
+     <SharedViewSettings ref="ref231" />
+     <ImageViewTypeSettings ref="ref249">
+      <ImageViewTypeSettings-k>EImageView_Cube</ImageViewTypeSettings-k>
+      <ImageViewTypeSettings-v ref="ref250" subtype="CubeImageViewSettings">
+       <V>3</V>
+       <V>2</V>
+       <V>4</V>
+       <SharedViewSettings ref="ref231" />
+       <PictureSettings ref="ref251" subtype="CubeRenderer">
+        <V>3</V>
+        <V>1</V>
+        <V>4</V>
+        <ScaleWindowFactor ref="ref252" dim="3">
+         <ScaleWindowFactor-i>AACAPwAAgD8AAIA/</ScaleWindowFactor-i>
+        </ScaleWindowFactor>
+        <Visible>true</Visible>
+        <Brightness ref="ref253" dim="3">
+         <Brightness-i>AAAAAAAAAAAAAAAA</Brightness-i>
+        </Brightness>
+        <Contrast ref="ref254" dim="3">
+         <Contrast-i>AAAAAAAAAAAAAAAA</Contrast-i>
+        </Contrast>
+        <Gamma ref="ref255" dim="3">
+         <Gamma-i>AACAPwAAgD8AAIA/</Gamma-i>
+        </Gamma>
+        <CacheType>cst_Scaled</CacheType>
+        <ScaleAcrossLayers>true</ScaleAcrossLayers>
+        <ScalingLimits ref="ref256" dim="3">
+         <ScalingLimits-i ref="ref257">
+          <V>1</V>
+          <Min>0</Min>
+          <Max>255</Max>
+         </ScalingLimits-i>
+         <ScalingLimits-i ref="ref258">
+          <V>1</V>
+          <Min>0</Min>
+          <Max>255</Max>
+         </ScalingLimits-i>
+         <ScalingLimits-i ref="ref259">
+          <V>1</V>
+          <Min>0</Min>
+          <Max>255</Max>
+         </ScalingLimits-i>
+        </ScalingLimits>
+        <ScalingType>est_Raw</ScalingType>
+        <CustomScaling />
+        <LayerIndices ref="ref260" dim="3">
+         <LayerIndices-i>AAAAAAEAAAACAAAA</LayerIndices-i>
+        </LayerIndices>
+        <RenderingUnitSpace>pu_DarkMeanSubtract</RenderingUnitSpace>
+        <ColorWeighting />
+        <ColorWeightingRules ref="ref261" subtype="EqualRgbRules">
+         <V>2</V>
+         <V>1</V>
+         <InstrumentalResponse />
+        </ColorWeightingRules>
+       </PictureSettings>
+       <ColorWeighting ref="ref261" />
+      </ImageViewTypeSettings-v>
+      <ImageViewTypeSettings-k>EImageView_Component</ImageViewTypeSettings-k>
+      <ImageViewTypeSettings-v ref="ref262" subtype="ComponentImageViewSettings">
+       <V>3</V>
+       <V>3</V>
+       <V>4</V>
+       <SharedViewSettings ref="ref231" />
+       <PictureSettings ref="ref263" subtype="ComponentRenderer">
+        <V>1</V>
+        <V>2</V>
+        <V>4</V>
+        <ScaleWindowFactor />
+        <Visible>true</Visible>
+        <Brightness ref="ref264" dim="1">
+         <Brightness-i>AAAAAA==</Brightness-i>
+        </Brightness>
+        <Contrast ref="ref265" dim="1">
+         <Contrast-i>AAAAAA==</Contrast-i>
+        </Contrast>
+        <Gamma ref="ref266" dim="1">
+         <Gamma-i>AACAPw==</Gamma-i>
+        </Gamma>
+        <CacheType>cst_None</CacheType>
+        <ScaleAcrossLayers>true</ScaleAcrossLayers>
+        <ScalingLimits />
+        <ScalingType>est_ClipStretch</ScalingType>
+        <CustomScaling />
+        <UseAlternateColor>true</UseAlternateColor>
+        <DisplayMode>edm_Absorptive</DisplayMode>
+        <ComponentInfo />
+       </PictureSettings>
+      </ImageViewTypeSettings-v>
+      <ImageViewTypeSettings-k>EImageView_Composite</ImageViewTypeSettings-k>
+      <ImageViewTypeSettings-v ref="ref267" subtype="CompositeImageViewSettings">
+       <V>3</V>
+       <V>4</V>
+       <SharedViewSettings ref="ref231" />
+       <PictureSettings ref="ref268" subtype="CompositeRenderer">
+        <V>2</V>
+        <V>4</V>
+        <ScaleWindowFactor ref="ref269" dim="3">
+         <ScaleWindowFactor-i>AACAPwAAgD8AAIA/</ScaleWindowFactor-i>
+        </ScaleWindowFactor>
+        <Visible>true</Visible>
+        <Brightness ref="ref270" dim="3">
+         <Brightness-i>AAAAAAAAAAAAAAAA</Brightness-i>
+        </Brightness>
+        <Contrast ref="ref271" dim="3">
+         <Contrast-i>AAAAAAAAAAAAAAAA</Contrast-i>
+        </Contrast>
+        <Gamma ref="ref272" dim="3">
+         <Gamma-i>AACAPwAAgD8AAIA/</Gamma-i>
+        </Gamma>
+        <CacheType>cst_None</CacheType>
+        <ScaleAcrossLayers>false</ScaleAcrossLayers>
+        <ScalingLimits />
+        <ScalingType>est_ClipStretch</ScalingType>
+        <CustomScaling />
+        <UseAlternateColor>false</UseAlternateColor>
+        <DisplayMode>edm_Absorptive</DisplayMode>
+        <ComponentInfo ref="ref273">
+         <ComponentInfo-i ref="ref274">
+          <V>2</V>
+          <Epitope />
+          <AlternateColor>Blue</AlternateColor>
+          <Color>Blue</Color>
+          <Index>0</Index>
+          <Name>Blue</Name>
+          <Visible>true</Visible>
+         </ComponentInfo-i>
+         <ComponentInfo-i ref="ref275">
+          <V>2</V>
+          <Epitope />
+          <AlternateColor>Lime</AlternateColor>
+          <Color>Lime</Color>
+          <Index>1</Index>
+          <Name>Green</Name>
+          <Visible>true</Visible>
+         </ComponentInfo-i>
+         <ComponentInfo-i ref="ref276">
+          <V>2</V>
+          <Epitope />
+          <AlternateColor>Red</AlternateColor>
+          <Color>Red</Color>
+          <Index>2</Index>
+          <Name>Red</Name>
+          <Visible>true</Visible>
+         </ComponentInfo-i>
+        </ComponentInfo>
+       </PictureSettings>
+      </ImageViewTypeSettings-v>
+     </ImageViewTypeSettings>
+     <ImageViewType>EImageView_Cube</ImageViewType>
+    </ImageViewSettings>
+    <TableViewSettings ref="ref277" subtype="TableViewSettings">
+     <V>3</V>
+     <SharedViewSettings ref="ref231" />
+     <TableViewTypeSettings ref="ref278">
+      <TableViewTypeSettings-k>stt_class</TableViewTypeSettings-k>
+      <TableViewTypeSettings-v ref="ref279" subtype="ClassTableViewSettings">
+       <V>1</V>
+       <V>2</V>
+       <V>4</V>
+       <ShowSlideInfo>false</ShowSlideInfo>
+       <SharedViewSettings ref="ref231" />
+       <ShowTmaInfo>false</ShowTmaInfo>
+       <AllClasses ref="ref280" dim="2">
+        <AllClasses-i>Not Tissue</AllClasses-i>
+        <AllClasses-i>Tissue</AllClasses-i>
+       </AllClasses>
+       <AllComponents ref="ref281" dim="3">
+        <AllComponents-i>Blue</AllComponents-i>
+        <AllComponents-i>Green</AllComponents-i>
+        <AllComponents-i>Red</AllComponents-i>
+       </AllComponents>
+       <SelectedCompartments ref="ref282" dim="0"></SelectedCompartments>
+       <SelectedClasses ref="ref283" dim="1">
+        <SelectedClasses-i>Not Tissue</SelectedClasses-i>
+       </SelectedClasses>
+       <SelectedComponents ref="ref284" dim="1">
+        <SelectedComponents-i>Blue</SelectedComponents-i>
+       </SelectedComponents>
+       <SelectedPositionStats ref="ref285" dim="0"></SelectedPositionStats>
+       <SelectedShapeStats ref="ref286" dim="0"></SelectedShapeStats>
+       <SelectedComponentStats ref="ref287" dim="1">
+        <SelectedComponentStats-i>Mean</SelectedComponentStats-i>
+       </SelectedComponentStats>
+       <ReportAllClasses>false</ReportAllClasses>
+       <ReportAllComponents>false</ReportAllComponents>
+      </TableViewTypeSettings-v>
+     </TableViewTypeSettings>
+     <TableViewType>-1</TableViewType>
+    </TableViewSettings>
+   </Settings-i>
+  </Settings>
+  <Selected ref="ref167" />
+ </ViewSettingsList>
+</Procedure2>
